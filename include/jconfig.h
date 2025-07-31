@@ -19,6 +19,8 @@
 #ifndef JCONFIG_H
 #define JCONFIG_H
 
+#include <stdio.h>
+
 struct jconfig {
 	char	*domain;
 	char	*key;

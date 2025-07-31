@@ -31,8 +31,8 @@ int strcasecmp(const char *s1, const char *s2);
 int strncasecmp(const char *s1, const char *s2, size_t i);
 #endif
 
-#ifndef IPPORT_WHOIS
-# define IPPORT_WHOIS 43
+#ifndef IP_PORT
+# define IP_PORT 43
 #endif
 
 #ifndef MAXBUFSIZE

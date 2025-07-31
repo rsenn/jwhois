@@ -208,7 +208,9 @@ fi
 OLDCFLAGS=$CFLAGS
 AC_SUBST(OLDCFLAGS)
 
-AC_OUTPUT([ po/Makefile.in m4/Makefile 
+AC_OUTPUT([ 
+m4/Makefile.in
+po/Makefile.in
 Makefile 
 doc/Makefile 
 doc/sv/Makefile 

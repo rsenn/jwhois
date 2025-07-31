@@ -71,7 +71,7 @@ lookup_host_saddr(struct sockaddr_in *res, const char *host, int port)
 
   if (!port) {
     if ((sp = getservbyname("whois", "tcp")) == NULL)
-      res->sin_port = htons(IPPORT_WHOIS);
+      res->sin_port = htons(IP_PORT);
     else
       res->sin_port = sp->s_port;
   } else {
